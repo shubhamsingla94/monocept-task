@@ -1,0 +1,18 @@
+.Heading {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+}
+
+.Heading-card {
+    font-size: 2vw;
+    width: 40%;
+    padding: 2vh;
+    color: #6707f7;
+    background-color: #efcef2;
+    text-align: center;
+    border-radius: 1vw;
+    user-select: none;
+}

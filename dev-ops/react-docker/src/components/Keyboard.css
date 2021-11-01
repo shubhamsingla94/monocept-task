@@ -1,0 +1,47 @@
+.Keyboard {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196f3;
+}
+
+.Keyboard-button {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    user-select: none;
+}
+
+.Keyboard-button:hover {
+    background-color: #a6cef0;
+}
+
+.Keyboard-button.equal {
+    background-color: rgb(1, 184, 1);
+    color: #fff;
+}
+
+.Keyboard-button.equal:hover {
+    background-color: rgb(99, 231, 99);
+}
+
+.Keyboard-button.operators {
+    background-color: #52acc7;
+    color: #fff;
+}
+
+.Keyboard-button.operators:hover {
+    background-color: #78c8e0;
+}
+
+.Keyboard-button.back {
+    background-color: rgb(241, 146, 146);
+    color: #fff;
+}
+
+.Keyboard-button.back:hover {
+    background-color: rgb(241, 75, 75);
+}
